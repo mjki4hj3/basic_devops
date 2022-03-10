@@ -20,12 +20,20 @@
 
 <img src="infrastructure-diagram.png" />
 
-
 In this project I provisioned two EC2 instances with Terraformed and then configured via Ansible Playbooks. The instances were used to host a web and jenkins server. The jenkins server was used to run a docker image via a shell script remotely using ssh.
+
 # Areas of Improvemnt
 
 - Use of Terraform modules
-- Include security groups in Terraform 
-- Use ECS instead of EC2 instances
+- Include security groups in Terraform instead of manually doing so in web portal.
+- Use ECS instead of EC2 instances.
 
 # Resources
+
+[Terraform for Beginners](https://www.youtube.com/watch?v=SLB_c_ayRMo)
+
+[Ansible Documentation](https://docs.ansible.com/ansible/latest/index.html)
+
+[Docker Documentation](https://docs.docker.com/)
+
+[Jenkins Installation - Ubuntu](https://www.jenkins.io/doc/book/installing/linux/)
