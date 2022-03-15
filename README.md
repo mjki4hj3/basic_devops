@@ -13,7 +13,7 @@
 
 - Provision infrastructure using Terraform onto AWS
 - Use Ansible to configure infrastructure provisioned
-- Jenkins to automate deploy of web application 
+- Jenkins to automate deployment of web application 
 - Web application is created from a Docker image
 ---
 # Project Infrastructure
